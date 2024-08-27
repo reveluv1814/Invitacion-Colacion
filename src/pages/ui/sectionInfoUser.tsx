@@ -15,7 +15,7 @@ const SectionInfoUser = () => {
       <div className="mt-10 md:mt-20 flex justify-center items-center flex-col">
         <div className="flex flex-col justify-center items-center gap-4 border border-stone-600 rounded-md w-[95%] md:w-1/2 h-[25rem] hover:backdrop-blur-sm">
           <Avatar className="">
-            <AvatarImage src="/images/avatar.png" />
+            <AvatarImage src="/invitacion-colacion/images/avatar.png" />
             <AvatarFallback>NG</AvatarFallback>
           </Avatar>
 
