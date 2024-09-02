@@ -28,7 +28,7 @@ const SectionCelebracion = () => {
         <CardEvento title="Celebración" description="Datalles del evento" />
         <CardMap
           title="Ubicación"
-          lugar="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d239.09561044532376!2d-68.10316242399037!3d-16.499331398074094!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1725243479743!5m2!1ses-419!2sbo"
+          lugar="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3825.528489505847!2d-68.10314!3d-16.499396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDI5JzU3LjgiUyA2OMKwMDYnMTEuMyJX!5e0!3m2!1ses-419!2sbo!4v1725296013978!5m2!1ses-419!2sbo"
         />
       </div>
       <div className="flex flex-col justify-center items-center mt-10">
