@@ -1,16 +1,13 @@
-import NavBar from "@/components/ui/navBar";
 import SectionPrincipal from "./ui/sectionPrincipal";
-import SectionInfoActo from "./ui/sectionInfoActo";
 import { useTheme } from "@/components/ThemeProvider";
 import { Separator } from "@/components/ui/separator";
 import SectionInfoUser from "./ui/sectionInfoUser";
-import SectionFooter from "./ui/sectionFooter";
+import SectionCelebracion from "./ui/sectionCelebracion";
 
 const Inicio = () => {
   const { theme } = useTheme();
   return (
     <div>
-      <NavBar />
       <div className="">
         <SectionPrincipal />
       </div>
@@ -29,9 +26,10 @@ const Inicio = () => {
             <Separator />
           </div>
         </div>
-        <SectionInfoActo />
+        {/* <SectionInfoActo /> */}
+        <SectionCelebracion />
       </div>
-      <SectionFooter />
+      {/* <SectionFooter /> */}
     </div>
   );
 };

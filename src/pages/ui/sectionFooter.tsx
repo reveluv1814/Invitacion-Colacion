@@ -29,19 +29,6 @@ const SectionFooter = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 md:mt-10 flex justify-center font-semibold pb-4">
-        <h4>
-          <span className="font-light">Sitio hecho por </span>
-          <a
-            href="https://www.linkedin.com/in/neil-graneros/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-[#55679C]"
-          >
-            Neil Graneros 🎓 - 2024
-          </a>
-        </h4>
-      </div>
     </div>
   );
 };

@@ -33,10 +33,10 @@ const MobileNav = () => {
           <Logo />
           <div className="flex flex-col justify-center items-start">
             <h2 className="text-sm font-medium tracking-tight transition-colors first:mt-0  text-center">
-              Colación de Grado
+              Invitación
             </h2>
             <p className="text-muted-foreground text-xs">
-              Lic. Neil Graneros Flores
+              Evento de Graduación
             </p>
           </div>
         </div>
