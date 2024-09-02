@@ -7,9 +7,17 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-type CardProps = { description?: string } & React.ComponentProps<typeof Card>;
+type CardProps = { description?: string; lugar: string } & React.ComponentProps<
+  typeof Card
+>;
 
-const CardMap = ({ className, title, description, ...props }: CardProps) => {
+const CardMap = ({
+  className,
+  title,
+  description,
+  lugar,
+  ...props
+}: CardProps) => {
   return (
     <Card
       className={cn(
@@ -25,7 +33,7 @@ const CardMap = ({ className, title, description, ...props }: CardProps) => {
       <CardContent className="grid gap-4">
         <div className=" flex items-center space-x-4 rounded-md border dark:border-stone-800">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d478.1776824829959!2d-68.13009640367018!3d-16.504807005904972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2064df652367%3A0xddb4c11ab8c8d666!2sMonoblock%20UMSA!5e0!3m2!1ses-419!2sbo!4v1724449993702!5m2!1ses-419!2sbo"
+            src={lugar}
             // width="600"
             // height="450"
             style={{ border: "0", borderRadius: "0.5rem" }}

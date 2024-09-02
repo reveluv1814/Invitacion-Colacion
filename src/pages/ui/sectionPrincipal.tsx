@@ -14,7 +14,7 @@ const SectionPrincipal = () => {
         <ParticlesComponent />
       </div>
 
-      <div className="flex flex-col md:flex-row items-center h-[85vh]">
+      <div className="flex flex-col md:flex-row items-center h-[85vh] md:px-[5rem]">
         <div className="w-full md:w-1/2 flex flex-col md:pl-14 md:items-start px-5 pt-16 md:pt-0 md:px-0 text-stone-800 dark:text-zinc-100">
           <h1 className="scroll-m-20 text-3xl md:text-4xl font-extrabold tracking-tight lg:text-5xl text-wrap md:border-l-8 pl-2 md:pl-2 border-sky-900 text-center md:text-start">
             ¡Finalmente, la meta ha sido alcanzada! 🎓

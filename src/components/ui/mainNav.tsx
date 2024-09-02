@@ -8,9 +8,9 @@ const MainNav = () => {
         <Logo />
         <div className="flex flex-col border-l-[0.2rem] border-sky-900 pl-3 justify-center items-start">
           <h2 className="text-xl font-medium tracking-tight transition-colors first:mt-0  text-center">
-            Colación de Grado
+            Invitación
           </h2>
-          <p className="text-muted-foreground">Lic. Neil Graneros Flores</p>
+          <p className="text-muted-foreground">Evento de Graduación</p>
         </div>
       </div>
 
