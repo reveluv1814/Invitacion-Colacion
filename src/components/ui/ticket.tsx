@@ -1,6 +1,7 @@
 import PDF from "@/lib/PDF";
 import { randomEmoji } from "@/lib/utils";
 import { PDFDownloadLink } from "@react-pdf/renderer";
+import { Download } from "lucide-react";
 type TicketProps = {
   nombre: string;
 };
@@ -53,7 +54,14 @@ const Ticket = ({ nombre }: TicketProps) => {
               {({ loading }) => (
                 <>
                   <span className="dark:text-stone-300">
-                    {loading ? "Cargando ..." : "Descargar"}
+                    {loading ? (
+                      "Cargando ..."
+                    ) : (
+                      <span className="flex flex-row justify-center items-center gap-2">
+                        Descargar
+                        <Download className="rotate-90" />
+                      </span>
+                    )}
                   </span>
                 </>
               )}
